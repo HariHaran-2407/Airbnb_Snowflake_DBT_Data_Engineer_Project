@@ -8,6 +8,8 @@ An ELT pipeline that loads Airbnb bookings, hosts and listings data from Amazon 
 CSV files → Amazon S3 → Snowflake external stage → COPY INTO (STAGING)
           → dbt Bronze → dbt Silver → dbt Gold (fact, OBT)
                                   └→ dbt Snapshots (SCD Type 2)
+<img width="1917" height="988" alt="Architechture_flow" src="https://github.com/user-attachments/assets/0089987a-7fa0-493b-959f-4bc088079059" />
+
 ```
 
 ## Tech Stack
