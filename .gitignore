@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
+airbn_project/profiles.yml
 
 # Virtual environments
 .venv
